@@ -316,7 +316,7 @@ echo -e "${BLUE}正在启动服务...${NC}"
 echo -e "${YELLOW}当前工作目录：$(pwd)${NC}"
 echo
 
-# 修改Python文件添加YouTube分流到xray配置，并增加80端口节点
+# 修改Python文件添加YouTube分流到xray配置
 echo -e "${BLUE}正在添加YouTube分流功能...${NC}"
 cat > youtube_patch.py << 'EOF'
 # 读取app.py文件
